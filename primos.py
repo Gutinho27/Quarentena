@@ -7,15 +7,15 @@ app = Flask(__name__)
 @app.route('/')
 
 def primoss():
-    primos = []
+    primos = ""
     for num in range(1,101):  #contador dos 100 primeiros números!
         count = 0
         for numb in range(1,num+1):  #aqui é pra ver quantas vezes é dividido até chegar nele mesmo.
             if num % numb == 0:     # se ele for divisivel conta 1
                 count += 1
         if count ==2:        #pra um número ser primo, só pode ser divisel 2x
-            primos.append (num)   
-    return (primos)
+            primos += str(num) + ', '   
+    return (primos [0:len(primos)-2])
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
