@@ -1,0 +1,96 @@
+2020-04-02T19:41:25.909400+00:00 app[api]: Release v1 created by user guto.andarilho@hotmail.com
+2020-04-02T19:41:25.909400+00:00 app[api]: Initial release by user guto.andarilho@hotmail.com
+2020-04-02T19:41:26.337823+00:00 app[api]: Enable Logplex by user guto.andarilho@hotmail.com
+2020-04-02T19:41:26.337823+00:00 app[api]: Release v2 created by user guto.andarilho@hotmail.com
+2020-04-02T19:41:45.000000+00:00 app[api]: Build started by user guto.andarilho@hotmail.com
+2020-04-02T19:41:47.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/3dd3875c-557e-4a6f-811b-e80b2386f3fd/activity/builds/aebd1f39-abc9-4b2b-8265-a9d0209478f9
+2020-04-02T19:59:31.000000+00:00 app[api]: Build started by user guto.andarilho@hotmail.com
+2020-04-02T19:59:59.176715+00:00 app[api]: Deploy 4738a5f4 by user guto.andarilho@hotmail.com
+2020-04-02T19:59:59.191989+00:00 app[api]: Scaled to web@1:Free by user guto.andarilho@hotmail.com
+2020-04-02T19:59:59.176715+00:00 app[api]: Release v3 created by user guto.andarilho@hotmail.com
+2020-04-02T20:00:04.511225+00:00 heroku[web.1]: State changed from starting to crashed
+2020-04-02T20:00:04.515192+00:00 heroku[web.1]: State changed from crashed to starting
+2020-04-02T20:00:04.426449+00:00 app[web.1]: python: can't open file 'monte_carlo.py': [Errno 2] No such file or directory
+2020-04-02T20:00:09.320865+00:00 heroku[web.1]: State changed from starting to crashed
+2020-04-02T20:00:09.240781+00:00 app[web.1]: python: can't open file 'monte_carlo.py': [Errno 2] No such file or directory
+2020-04-02T20:00:08.000000+00:00 app[api]: Build succeeded
+2020-04-02T20:22:33.069528+00:00 heroku[web.1]: State changed from crashed to starting
+2020-04-02T20:22:38.924438+00:00 heroku[web.1]: State changed from starting to crashed
+2020-04-02T20:22:38.849000+00:00 app[web.1]: python: can't open file 'monte_carlo.py': [Errno 2] No such file or directory
+2020-04-02T21:06:21.000000+00:00 app[api]: Build started by user guto.andarilho@hotmail.com
+2020-04-02T21:06:52.302365+00:00 heroku[web.1]: State changed from crashed to starting
+2020-04-02T21:06:51.366390+00:00 app[api]: Release v4 created by user guto.andarilho@hotmail.com
+2020-04-02T21:06:51.366390+00:00 app[api]: Deploy 482be006 by user guto.andarilho@hotmail.com
+2020-04-02T21:06:57.809419+00:00 heroku[web.1]: State changed from starting to crashed
+2020-04-02T21:06:57.812974+00:00 heroku[web.1]: State changed from crashed to starting
+2020-04-02T21:06:57.723174+00:00 app[web.1]: Traceback (most recent call last):
+2020-04-02T21:06:57.723198+00:00 app[web.1]: File "primos.py", line 5, in <module>
+2020-04-02T21:06:57.723777+00:00 app[web.1]: app = Flask(_name_)
+2020-04-02T21:06:57.723778+00:00 app[web.1]: NameError: name '_name_' is not defined
+2020-04-02T21:06:59.000000+00:00 app[api]: Build succeeded
+2020-04-02T21:07:04.771881+00:00 heroku[web.1]: State changed from starting to crashed
+2020-04-02T21:07:04.689544+00:00 app[web.1]: Traceback (most recent call last):
+2020-04-02T21:07:04.689566+00:00 app[web.1]: File "primos.py", line 5, in <module>
+2020-04-02T21:07:04.689669+00:00 app[web.1]: app = Flask(_name_)
+2020-04-02T21:07:04.689684+00:00 app[web.1]: NameError: name '_name_' is not defined
+2020-04-02T21:07:32.313824+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=arcane-shelf-01682.herokuapp.com request_id=735dba7e-e043-4808-a53c-f155da417ba4 fwd="177.198.110.196" dyno= connect= service= status=503 bytes= protocol=https
+2020-04-02T21:07:33.295682+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=arcane-shelf-01682.herokuapp.com request_id=d6581865-1652-44fe-9e16-dd2b32ff7dcc fwd="177.198.110.196" dyno= connect= service= status=503 bytes= protocol=https
+2020-04-02T21:10:00.000000+00:00 app[api]: Build started by user guto.andarilho@hotmail.com
+2020-04-02T21:10:23.151718+00:00 heroku[web.1]: State changed from crashed to starting
+2020-04-02T21:10:22.564462+00:00 app[api]: Deploy 6da7eeb5 by user guto.andarilho@hotmail.com
+2020-04-02T21:10:22.564462+00:00 app[api]: Release v5 created by user guto.andarilho@hotmail.com
+2020-04-02T21:10:29.795161+00:00 app[web.1]: * Running on http://0.0.0.0:33496/ (Press CTRL+C to quit)
+2020-04-02T21:10:30.695332+00:00 heroku[web.1]: State changed from starting to up
+2020-04-02T21:10:31.000000+00:00 app[api]: Build succeeded
+2020-04-02T21:10:50.580780+00:00 heroku[router]: at=info method=GET path="/" host=arcane-shelf-01682.herokuapp.com request_id=a0ea514b-e657-4f3d-a2c5-d0a683f0cda3 fwd="177.198.110.196" dyno=web.1 connect=1ms service=27ms status=500 bytes=450 protocol=https
+2020-04-02T21:10:50.578316+00:00 app[web.1]: [2020-04-02 21:10:50,576] ERROR in app: Exception on / [GET]
+2020-04-02T21:10:50.578325+00:00 app[web.1]: Traceback (most recent call last):
+2020-04-02T21:10:50.578325+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+2020-04-02T21:10:50.578326+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-04-02T21:10:50.578327+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1615, in full_dispatch_request
+2020-04-02T21:10:50.578327+00:00 app[web.1]: return self.finalize_request(rv)
+2020-04-02T21:10:50.578328+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1630, in finalize_request
+2020-04-02T21:10:50.578328+00:00 app[web.1]: response = self.make_response(rv)
+2020-04-02T21:10:50.578328+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1740, in make_response
+2020-04-02T21:10:50.578329+00:00 app[web.1]: rv = self.response_class.force_type(rv, request.environ)
+2020-04-02T21:10:50.578330+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/wrappers.py", line 921, in force_type
+2020-04-02T21:10:50.578330+00:00 app[web.1]: response = BaseResponse(*_run_wsgi_app(response, environ))
+2020-04-02T21:10:50.578331+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/wrappers.py", line 59, in _run_wsgi_app
+2020-04-02T21:10:50.578350+00:00 app[web.1]: return _run_wsgi_app(*args)
+2020-04-02T21:10:50.578350+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/test.py", line 923, in run_wsgi_app
+2020-04-02T21:10:50.578351+00:00 app[web.1]: app_rv = app(environ, start_response)
+2020-04-02T21:10:50.578351+00:00 app[web.1]: TypeError: 'list' object is not callable
+2020-04-02T21:10:50.578640+00:00 app[web.1]: 10.16.155.42 - - [02/Apr/2020 21:10:50] "GET / HTTP/1.1" 500 -
+2020-04-02T21:10:50.853076+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=arcane-shelf-01682.herokuapp.com request_id=97963a5e-23d1-45ee-aed7-1c777d200ce6 fwd="177.198.110.196" dyno=web.1 connect=1ms service=3ms status=404 bytes=380 protocol=https
+2020-04-02T21:10:50.845128+00:00 app[web.1]: 10.16.155.42 - - [02/Apr/2020 21:10:50] "GET /favicon.ico HTTP/1.1" 404 -
+2020-04-02T21:15:53.000000+00:00 app[api]: Build started by user guto.andarilho@hotmail.com
+2020-04-02T21:16:14.091370+00:00 heroku[web.1]: Restarting
+2020-04-02T21:16:14.106882+00:00 heroku[web.1]: State changed from up to starting
+2020-04-02T21:16:13.925492+00:00 app[api]: Release v6 created by user guto.andarilho@hotmail.com
+2020-04-02T21:16:13.925492+00:00 app[api]: Deploy 59da20f8 by user guto.andarilho@hotmail.com
+2020-04-02T21:16:19.355335+00:00 app[web.1]: * Running on http://0.0.0.0:37405/ (Press CTRL+C to quit)
+2020-04-02T21:16:19.942254+00:00 heroku[web.1]: State changed from starting to up
+2020-04-02T21:16:22.000000+00:00 app[api]: Build succeeded
+2020-04-02T21:16:36.815210+00:00 heroku[router]: at=info method=GET path="/" host=arcane-shelf-01682.herokuapp.com request_id=5cc5525d-bae4-45e2-aaf6-3b3c8e08d5ba fwd="177.198.110.196" dyno=web.1 connect=1ms service=3ms status=200 bytes=248 protocol=https
+2020-04-02T21:16:36.813072+00:00 app[web.1]: 10.52.12.238 - - [02/Apr/2020 21:16:36] "GET / HTTP/1.1" 200 -
+2020-04-02T21:25:55.000000+00:00 app[api]: Build started by user guto.andarilho@hotmail.com
+2020-04-02T21:26:18.663860+00:00 heroku[web.1]: Restarting
+2020-04-02T21:26:18.667011+00:00 heroku[web.1]: State changed from up to starting
+2020-04-02T21:26:18.475539+00:00 app[api]: Deploy 8084badc by user guto.andarilho@hotmail.com
+2020-04-02T21:26:18.475539+00:00 app[api]: Release v7 created by user guto.andarilho@hotmail.com
+2020-04-02T21:26:24.924586+00:00 heroku[web.1]: State changed from starting to up
+2020-04-02T21:26:24.674782+00:00 app[web.1]: * Running on http://0.0.0.0:50495/ (Press CTRL+C to quit)
+2020-04-02T21:26:28.000000+00:00 app[api]: Build succeeded
+2020-04-02T21:26:37.699445+00:00 heroku[router]: at=info method=GET path="/" host=arcane-shelf-01682.herokuapp.com request_id=017fc997-f02f-432c-9791-f4404047283d fwd="177.198.110.196" dyno=web.1 connect=1ms service=13ms status=200 bytes=629 protocol=https
+2020-04-02T21:26:37.698163+00:00 app[web.1]: 10.5.233.91 - - [02/Apr/2020 21:26:37] "GET / HTTP/1.1" 200 -
+2020-04-02T22:00:06.768429+00:00 heroku[web.1]: Idling
+2020-04-02T22:00:06.771467+00:00 heroku[web.1]: State changed from up to down
+2020-04-02T22:29:43.000000+00:00 app[api]: Build started by user guto.andarilho@hotmail.com
+2020-04-02T22:30:07.053130+00:00 heroku[web.1]: State changed from down to starting
+2020-04-02T22:30:06.831688+00:00 app[api]: Deploy 823b3928 by user guto.andarilho@hotmail.com
+2020-04-02T22:30:06.831688+00:00 app[api]: Release v8 created by user guto.andarilho@hotmail.com
+2020-04-02T22:30:12.040462+00:00 app[web.1]: * Running on http://0.0.0.0:9147/ (Press CTRL+C to quit)
+2020-04-02T22:30:12.485386+00:00 heroku[web.1]: State changed from starting to up
+2020-04-02T22:30:15.000000+00:00 app[api]: Build succeeded
+2020-04-02T22:30:51.181263+00:00 app[web.1]: 10.81.229.85 - - [02/Apr/2020 22:30:51] "GET / HTTP/1.1" 200 -
+2020-04-02T22:30:51.184061+00:00 heroku[router]: at=info method=GET path="/" host=arcane-shelf-01682.herokuapp.com request_id=5ddba4e0-aaac-4cb3-b3e9-5075063f0551 fwd="177.198.110.196" dyno=web.1 connect=0ms service=13ms status=200 bytes=624 protocol=https
